@@ -14,5 +14,12 @@ fields:
     wysiwyg: true
     schema:
       format: html
+- type: textarea
+  name: hero_description
+  label: Hero Description
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
 pages:
 - portfolio/index.md
