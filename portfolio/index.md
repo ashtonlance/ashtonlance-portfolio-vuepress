@@ -8,6 +8,7 @@ hero_description: |-
 
   * HTML5/CSS3
 technologies:
+- technology: SASS
 - technology: HTML5/CSS3
 
 ---
