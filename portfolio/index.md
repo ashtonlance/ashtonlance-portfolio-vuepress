@@ -1,7 +1,7 @@
 ---
 works_index: true
-hero_text: "<strong>We're Acme</strong>, we work for brands. But most importantly,
-  we work for fun."
+hero_text: "<strong>I'm Ashton Lance&nbsp;</strong><br>and I'm a frontend developer
+  in Chattanooga, TN."
 title: Hero
 
 ---
