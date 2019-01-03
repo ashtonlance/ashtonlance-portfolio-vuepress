@@ -6,6 +6,7 @@ year: 2018
 categories:
 - Frontend Development
 description: subtitle
+link: https://beliefagency.com
 
 ---
 # Belief Agency
