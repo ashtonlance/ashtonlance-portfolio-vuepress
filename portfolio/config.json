@@ -12,8 +12,8 @@
       "external": false
     },
     {
-      "text": "Instagram",
-      "link": "https://www.instagram.com/its.nwa",
+      "text": "Github",
+      "link": "https://github.com/ashtonlance",
       "position": "left",
       "external": true
     },
@@ -22,12 +22,6 @@
       "link": "mailto:sayhi@mydomain.com",
       "position": "right",
       "external": true
-    },
-    {
-      "text": "Journal",
-      "link": "/journal/",
-      "position": "right",
-      "external": false
     }
   ]
 }
