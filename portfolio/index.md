@@ -7,6 +7,8 @@ hero_description: |-
   #### I work with:
 
   * HTML5/CSS3
+technologies:
+- technology: HTML5/CSS3
 
 ---
 <Hero :text="$page.frontmatter.hero_text" />
