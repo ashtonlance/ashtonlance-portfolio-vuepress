@@ -6,7 +6,7 @@
   "favicon": "",
   "navigation": [
     {
-      "text": "Works",
+      "text": "Projects",
       "link": "/",
       "position": "left",
       "external": false
