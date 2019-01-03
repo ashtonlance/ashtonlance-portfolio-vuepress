@@ -1,7 +1,7 @@
 ---
 title: Belief Agency
 date: 2018-08-01 00:00:00 +0000
-thumbnail: "/upload/Screen Shot 2019-01-03 at 3.21.49 PM.png"
+thumbnail: "/upload/beliefagency.png"
 year: 2018
 categories:
 - Frontend Development
