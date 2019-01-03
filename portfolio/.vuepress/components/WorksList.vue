@@ -40,10 +40,16 @@ export default {
   width: 48.5%;
   height: 50vh;
   background-size: cover;
-  background-position: center;
+  background-position: top center;
   background-repeat: no-repeat;
   margin-bottom: 5vw;
   cursor: pointer;
+}
+
+@media screen and (min-width: 769px) {
+  .post {
+    height: 500px;
+  }
 }
 
 .post:visited {
