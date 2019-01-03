@@ -5,7 +5,7 @@ thumbnail: "/upload/beliefagency.png"
 year: 2018
 categories:
 - Frontend Development
-description: subtitle
+description: Design by Belief Agency
 link: https://beliefagency.com
 
 ---
