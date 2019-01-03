@@ -14,12 +14,12 @@ fields:
     wysiwyg: true
     schema:
       format: html
-- type: textarea
-  name: hero_description
-  label: Hero Description
-  config:
-    wysiwyg: true
-    schema:
-      format: markdown
+- type: field_group_list
+  name: technologies
+  label: Technologies
+  fields:
+  - type: text
+    name: technology
+    label: Technology
 pages:
 - portfolio/index.md
