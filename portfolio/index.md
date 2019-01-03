@@ -6,5 +6,5 @@ title: Hello
 hero_description: Test
 
 ---
-<Hero :text="$page.frontmatter.hero_text" :description="$page.frontmatter.hero_description" />
+<Hero :text="$page.frontmatter.hero_text" />
 <WorksList />

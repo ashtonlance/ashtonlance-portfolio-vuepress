@@ -1,8 +1,9 @@
 <template>
-  <div class="hero">
-    <h1 v-if="text" class="title" v-html="text" />
-    <p v-if="description" class="description" v-html="description" />
-  </div>
+    <div>
+      <h1 v-if="text" class="title" v-html="text" />
+      <p>{{ $page.frontmatter.hero_description }} </p>
+    </div>
+    
 </template>
 
 <script>
