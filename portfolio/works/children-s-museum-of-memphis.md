@@ -10,4 +10,6 @@ date: ''
 ---
 # Children's Museum of Memphis
 
+[Visit Site](https://cmom.com)
+
 Designed by Simple Focus.
