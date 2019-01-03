@@ -1,7 +1,7 @@
 ---
 title: Children's Museum of Memphis
 thumbnail: "/upload/cmom.png"
-description: subtitle
+description: Design by Simple Focus
 categories:
 - Frontend Devlopment
 year: 2018
