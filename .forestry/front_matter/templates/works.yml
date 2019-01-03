@@ -35,5 +35,8 @@ fields:
   type: datetime
   config:
     required: true
+- type: text
+  name: link
+  label: Link
 pages:
 - portfolio/works/children-s-museum-of-memphis.md
