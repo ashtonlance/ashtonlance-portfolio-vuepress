@@ -1,6 +1,14 @@
 <template>
     <div>
       <h1 v-if="text" class="title" v-html="text" />
+      <h4>I work with:</h4>
+      <ul>
+        <li
+          v-for="(technology, key) in $page.frontmatter.technologies"
+        >
+        {{ technology }}
+        </li>
+      </ul>
       <p v-html="$page.frontmatter.hero_description" ></p>
     </div>
     
