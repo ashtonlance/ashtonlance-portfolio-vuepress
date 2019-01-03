@@ -46,6 +46,10 @@ export default {
   cursor: pointer;
 }
 
+.post:visited {
+  color: #222;
+}
+
 .info {
   position: absolute;
   left: 0;
