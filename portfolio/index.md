@@ -4,7 +4,7 @@ hero_text: "<strong>I'm Ashton Lance&nbsp;</strong><br>and I'm a frontend develo
   in Chattanooga, TN."
 title: Hello
 hero_description: |-
-  #### Front End Skills:
+  ##### Front End Skills:
 
   * HTML5 and SCSS
   * JavaScript (ES6)
@@ -17,7 +17,7 @@ hero_description: |-
   * Shopify
   * Laravel
 
-  #### Back End Skills:
+  ##### Back End Skills:
 
   * Nginx
   * AWS
