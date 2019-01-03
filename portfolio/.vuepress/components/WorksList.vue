@@ -34,10 +34,15 @@
 
 <style scoped>
 
+  .project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
   .post {
     position: relative;
-    width: 100%;
-    height: 70vh;
+    width: 48.5%;
+    height: 50vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
