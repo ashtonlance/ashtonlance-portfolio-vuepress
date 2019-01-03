@@ -4,6 +4,7 @@ hero_text: "<strong>I'm Ashton Lance&nbsp;</strong><br>and I'm a frontend develo
   in Chattanooga, TN."
 title: Hello
 technologies:
+- technology: React
 - technology: Vue
 - technology: Javascript (ES6+)
 - technology: SASS
