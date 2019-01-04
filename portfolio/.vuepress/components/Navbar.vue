@@ -6,6 +6,8 @@
       top: '0',
       left: '0',
       width: '100%',
+      background: 'white',
+      padding: '3vw 6vw'
     }"
   >
 

@@ -9,7 +9,15 @@ module.exports = {
     nav: config.navigation,
   },
   head: [
-    ['link', { rel: "icon", href: config.favicon }]
+    ['link', {
+      rel: "icon",
+      href: config.favicon
+    }],
+    ['link', {
+      rel: "stylesheet",
+      href: "https://use.fontawesome.com/releases/v5.6.3/css/all.css",
+      crossorigin: "anonymous"
+    }]
   ],
   markdown: {
     anchor: {

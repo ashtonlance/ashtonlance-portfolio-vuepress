@@ -12,6 +12,11 @@
         <span v-if="post.frontmatter.description">{{ post.frontmatter.description }}</span>
       </div>
     </a>
+    <h3>I work with:</h3>
+    <ul>
+      <li v-for="item in $page.frontmatter.technologies" v-html="item.technology"></li>
+    </ul>
+    <p v-html="$page.frontmatter.hero_description"></p>
   </div>
 </template>
 
@@ -37,7 +42,7 @@ export default {
 }
 .post {
   position: relative;
-  width: 48.5%;
+  width: 100%;
   height: 50vh;
   background-size: cover;
   background-position: top center;
@@ -48,7 +53,8 @@ export default {
 
 @media screen and (min-width: 769px) {
   .post {
-    height: 500px;
+    width: 48.5%;
+    height: 50vh;
   }
 }
 
@@ -80,5 +86,32 @@ export default {
   margin: 0;
   margin-left: 0.5rem;
   font-size: 0.8rem;
+}
+
+ul {
+  margin: 0 auto 0 auto;
+  max-width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+}
+
+li {
+  margin-right: 1rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 773px) {
+  ul {
+    justify-content: flex-start;
+  }
+  li {
+    margin-top: .5rem
+  }
+}
+
+li:last-of-type {
+  margin-right: 0;
 }
 </style>

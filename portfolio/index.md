@@ -4,17 +4,16 @@ hero_text: "<strong>I'm Ashton Lance&nbsp;</strong><br>and I'm a frontend develo
   in Chattanooga, TN."
 title: Hello
 technologies:
-- technology: Vue
-- technology: React
-- technology: Javascript (ES6+)
-- technology: Webpack
-- technology: SASS
-- technology: HTML5/CSS3
-- technology: CraftCMS
-- technology: Shopify
-- technology: Magento
-- technology: Laravel
-- technology: Wordpress
+- technology: <i class="fab fa-vuejs"></i></br>Vue
+- technology: <i class="fab fa-react"></i></br>React
+- technology: <i class="fab fa-js-square"></i></br>Javascript
+- technology: <i class="fab fa-sass"></i></br>Sass
+- technology: <i class="fab fa-html5"></i></br>HTML5
+- technology: <i class="fab fa-magento"></i></br>Magento
+- technology: <i class="fab fa-laravel"></i></br>Laravel
+- technology: <i class="fab fa-wordpress"></i></br>Wordpress
+- technology: <i class="fas fa-globe"></i></i></br>CraftCMS
+- technology: <i class="fas fa-shopping-bag"></i></i></br>Shopify
 
 ---
 <Hero :text="$page.frontmatter.hero_text" />

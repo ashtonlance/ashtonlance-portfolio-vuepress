@@ -1,11 +1,6 @@
 <template>
   <div>
     <h1 v-if="text" class="title" v-html="text"/>
-    <h2>I work with:</h2>
-    <ul>
-      <li v-for="item in $page.frontmatter.technologies">{{ item.technology }}</li>
-    </ul>
-    <p v-html="$page.frontmatter.hero_description"></p>
   </div>
 </template>
 
@@ -36,10 +31,5 @@ export default {
   .title {
     margin: 12vw auto 7vw auto;
   }
-}
-
-ul {
-  margin: 2rem auto 2rem auto;
-  max-width: 800px;
 }
 </style>
