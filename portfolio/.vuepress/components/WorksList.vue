@@ -5,6 +5,8 @@
       v-for="post in posts"
       :key="post.title"
       class="post"
+      target="_blank"
+      rel="noopener"
       :style="{ backgroundImage: `url(${post.frontmatter.thumbnail})` }"
     >
       <div class="info">
