@@ -104,19 +104,18 @@ ul {
   flex-wrap: wrap;
   justify-content: space-between;
   list-style: none;
+  width: 100%;
 }
 
 li {
-  margin-right: 1rem;
   text-align: center;
+  padding: 8px;
 }
 
 @media screen and (max-width: 773px) {
-  ul {
-    justify-content: flex-start;
-  }
   li {
-    margin-top: .5rem
+    margin-top: .5rem;
+    margin-right: 0
   }
 }
 
