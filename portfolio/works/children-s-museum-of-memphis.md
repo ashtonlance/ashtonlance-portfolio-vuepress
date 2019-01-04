@@ -1,7 +1,7 @@
 ---
 title: Children's Museum of Memphis
 thumbnail: "/upload/cmom.png"
-description: Design by Simple Focus. Built with Wordpress.
+description: Designed by Simple Focus. Built with Wordpress.
 categories:
 - Frontend Devlopment
 year: 2018
