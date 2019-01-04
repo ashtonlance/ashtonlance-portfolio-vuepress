@@ -114,7 +114,7 @@
     align-items: center;
     justify-content: space-between;
     height: 2rem;
-    padding: 3vw 5vw;
+    padding: 5vw;
     font-size: 0.8rem;
     font-weight: 600;
   }

@@ -29,7 +29,7 @@ export default {
 
 @media screen and (min-width: 600px) {
   .title {
-    margin: 12vw auto 7vw auto;
+    margin: 8vw auto 7vw auto;
   }
 }
 </style>
