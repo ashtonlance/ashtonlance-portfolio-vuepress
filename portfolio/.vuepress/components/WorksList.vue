@@ -6,7 +6,7 @@
       :key="post.title"
       class="post"
       target="_blank"
-      rel="noopener"
+      rel="noopener noreferrer"
       :style="{ backgroundImage: `url(${post.frontmatter.thumbnail})` }"
     >
       <div class="info">
