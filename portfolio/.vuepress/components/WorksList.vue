@@ -50,12 +50,19 @@ export default {
   margin-bottom: 2rem;
   cursor: pointer;
   color: #222;
+  transition: 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.post:hover {
+  box-shadow: 0 12px 42px 0 rgba(0, 0, 0, 0.1);
+  transform: translate(5px, -5px);
+  transition: 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), box-shadow 0.3s ease-in-out 0.15s, -webkit-box-shadow 0.3s ease-in-out 0.15s;
 }
 
 @media screen and (min-width: 769px) {
   .post {
     width: 48.5%;
-    height: 50vh;
+    height: 500px;
     margin-bottom: 5vw;
   }
 }
