@@ -1,7 +1,6 @@
 ---
 works_index: true
-hero_text: "<strong>I'm Ashton Lance&nbsp;</strong><br>and I'm a frontend developer
-  in Chattanooga, TN."
+hero_text: "<strong>Ashton Lance </strong><br>Frontend Developer in Chattanooga, TN."
 title: Hello
 technologies:
 - technology: <i class="fab fa-vuejs"></i></br>Vue
