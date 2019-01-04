@@ -1,14 +1,6 @@
 <template>
   <header
     class="header"
-    :style="sticky && {
-      position: 'fixed',
-      top: '0',
-      left: '0',
-      width: '100%',
-      background: 'white',
-      padding: '3vw 6vw'
-    }"
   >
 
     <nav v-if="navLinks" class="navigation left desktop-nav">
@@ -121,11 +113,10 @@
     position: relative;
     align-items: center;
     justify-content: space-between;
-    height: 6rem;
-    padding: 5vw;
+    height: 2rem;
+    padding: 3vw 5vw;
     font-size: 0.8rem;
     font-weight: 600;
-    z-index: 10;
   }
 
   .logo {

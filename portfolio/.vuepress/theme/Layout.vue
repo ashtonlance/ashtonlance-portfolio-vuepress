@@ -5,7 +5,7 @@
     <div class="container">
       <!-- Works list -->
       <div v-if="$route.path === '/'" :style="{
-          marginTop: '14vw'
+          marginTop: '0'
         }">
         <Content/>
       </div>

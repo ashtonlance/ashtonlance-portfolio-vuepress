@@ -69,7 +69,7 @@ export default {
   padding: 0.5rem 1rem;
   background: rgba(255, 255, 255, 1);
   max-width: 400px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.19), 6px 6px 6px rgba(0, 0, 0, 0.23);
+  box-shadow: 0 11px 26px rgba(0, 0, 0, 0.19), 7px 5px 13px rgba(0, 0, 0, 0.19);
 }
 
 .info h2 {
@@ -81,10 +81,10 @@ export default {
 }
 
 .info span {
-  display: inline-block;
+  display: block;
   width: auto;
   margin: 0;
-  margin-left: 0.5rem;
+  margin-top: 8px;
   font-size: 0.8rem;
 }
 
