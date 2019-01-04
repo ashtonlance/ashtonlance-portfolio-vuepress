@@ -3,7 +3,7 @@
   "description": "Web Developer | Chattanooga, TN",
   "logo": "",
   "footer": "Ⓒ Ashton Lance",
-  "favicon": "",
+  "favicon": "/upload/favicon.jpg",
   "navigation": [
     {
       "text": "Projects",
