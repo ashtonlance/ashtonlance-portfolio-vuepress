@@ -23,5 +23,6 @@ module.exports = {
     anchor: {
       permalink: false
     }
-  }
+  },
+  ga: "UA-23574008-1"
 };
