@@ -38,6 +38,9 @@ fields:
 - type: text
   name: link
   label: Link
+- type: boolean
+  name: show_detail_page
+  label: Show Detail Page?
 pages:
 - portfolio/works/children-s-museum-of-memphis.md
 - portfolio/works/chattanosy.md
