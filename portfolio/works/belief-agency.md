@@ -5,7 +5,7 @@ thumbnail: "/upload/beliefagency.png"
 year: 2018
 categories:
 - Frontend Development
-description: Design by Belief Agency
+description: Design by Belief Agency. Built with Craft CMS.
 link: https://beliefagency.com
 
 ---
