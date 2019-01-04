@@ -47,14 +47,16 @@ export default {
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
-  margin-bottom: 5vw;
+  margin-bottom: 2rem;
   cursor: pointer;
+  color: #222;
 }
 
 @media screen and (min-width: 769px) {
   .post {
     width: 48.5%;
     height: 50vh;
+    margin-bottom: 5vw;
   }
 }
 
