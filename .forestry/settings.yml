@@ -36,4 +36,5 @@ file_template: ":filename:"
 build:
   preview_command: npm run site:build
   publish_command: npm run site:build
+  preview_output_directory: ".vuepress/dist"
   output_directory: portfolio/.vuepress/dist
