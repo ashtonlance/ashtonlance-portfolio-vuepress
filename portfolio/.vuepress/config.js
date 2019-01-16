@@ -17,6 +17,10 @@ module.exports = {
       name: "robots",
       content: "follow,index"
     }],
+    ['meta', {
+      name: "google-site-verification",
+      content: "co-Ie2Zb9lKqiYwb-nVG3bgg7gCFCoxy2fOs3a-cG3w"
+    }],
     ['link', {
       rel: "canonical",
       href: "https://ashtonlance.com"
