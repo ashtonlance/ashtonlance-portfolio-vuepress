@@ -9,6 +9,10 @@ module.exports = {
     nav: config.navigation,
   },
   head: [
+    ['meta', {
+      name: "keywords",
+      content: "front-end developer, front-end development, web designer"
+    }]
     ['link', {
       rel: "icon",
       href: config.favicon
