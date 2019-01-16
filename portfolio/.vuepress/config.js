@@ -11,7 +11,11 @@ module.exports = {
   head: [
     ['meta', {
       name: "keywords",
-      content: "front-end developer, front-end development, web designer"
+      content: "front-end developer, front-end development, web developer"
+    }]
+    ['meta', {
+      name: "robots",
+      content: "follow,index"
     }]
     ['link', {
       rel: "icon",
