@@ -12,11 +12,15 @@ module.exports = {
     ['meta', {
       name: "keywords",
       content: "front-end developer, front-end development, web developer"
-    }]
+    }],
     ['meta', {
       name: "robots",
       content: "follow,index"
-    }]
+    }],
+    ['link', {
+      rel: "canonical",
+      href: "https://ashtonlance.com"
+    }],
     ['link', {
       rel: "icon",
       href: config.favicon
