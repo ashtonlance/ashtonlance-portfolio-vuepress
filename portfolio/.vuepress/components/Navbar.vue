@@ -38,15 +38,18 @@
         <router-link
           v-for="nav in navLinks"
           :key="nav.text"
-          v-if="nav.position === 'right' && !nav.external"
+          v-if="nav.position === 'right' && !nav.external && nav.link.search('mailto') == -1"
           tag="li"
           :to="nav.link"
           active-class="active"
           v-text="nav.text"
           exact
         />
-        <li v-for="nav in navLinks" v-if="nav.position === 'right' && nav.external">
+        <li v-for="nav in navLinks" v-if="nav.position === 'right' && nav.external && !nav.link.indexOf('mailto') != -1">
           <a :href="nav.link" target="_blank">{{ nav.text }}</a>
+        </li>
+        <li v-for="nav in navLinks" v-if="nav.position === 'right' && !nav.external && nav.link.indexOf('mailto') != -1">
+          <a :href="nav.link">{{ nav.text }}</a>
         </li>
       </ul>
     </nav>
