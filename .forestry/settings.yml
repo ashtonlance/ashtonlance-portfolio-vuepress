@@ -38,3 +38,4 @@ build:
   publish_command: npm run site:build
   preview_output_directory: ".vuepress/dist"
   output_directory: portfolio/.vuepress/dist
+  instant_preview_command: vuepress dev -p 8080 -h 0.0.0.0
