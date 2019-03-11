@@ -99,6 +99,10 @@ export default {
   color: var(--color-black);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
     "Noto Sans", "Ubuntu", "Droid Sans", "Helvetica Neue", sans-serif;
@@ -116,6 +120,8 @@ img {
 
 .container {
   padding: 0 5vw;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .journal-list,
