@@ -21,7 +21,7 @@
       "text": "Say hi!",
       "link": "mailto:hello@ashtonlance.com",
       "position": "right",
-      "external": true
+      "external": false
     }
   ]
 }
