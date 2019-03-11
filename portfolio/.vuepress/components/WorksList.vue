@@ -1,5 +1,5 @@
 <template>
-  <div class="project-list">
+  <div id="projects" class="project-list">
     <a
       :href="post.frontmatter.link"
       v-for="post in posts"

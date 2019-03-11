@@ -7,7 +7,7 @@
   "navigation": [
     {
       "text": "Projects",
-      "link": "/",
+      "link": "https://ashtonlance.com/#projects",
       "position": "left",
       "external": false
     },

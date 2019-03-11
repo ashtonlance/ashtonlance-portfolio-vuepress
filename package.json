@@ -6,6 +6,9 @@
   "author": "Nichlas W. Andersen",
   "license": "MIT",
   "dependencies": {
-    "vuepress": "^0.14.1"
+    "vuepress": "^0.14.10"
+  },
+  "resolutions": {
+    "webpack-dev-middleware": "3.6.0"
   }
 }
