@@ -6,6 +6,12 @@
   "favicon": "/upload/favicon.jpg",
   "navigation": [
     {
+      "text": "Journal",
+      "link": "/journal",
+      "position": "left",
+      "external": ""
+    },
+    {
       "text": "Projects",
       "link": "#projects",
       "position": "left",
