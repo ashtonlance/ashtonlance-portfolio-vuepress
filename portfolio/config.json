@@ -7,20 +7,20 @@
   "navigation": [
     {
       "text": "Journal",
-      "link": "journal",
+      "link": "/journal/",
       "position": "left",
-      "external": ""
+      "external": false
     },
     {
       "text": "Projects",
-      "link": "#projects",
+      "link": "/#projects",
       "position": "left",
       "external": false
     },
     {
       "text": "Github",
       "link": "https://github.com/ashtonlance",
-      "position": "left",
+      "position": "right",
       "external": true
     },
     {
