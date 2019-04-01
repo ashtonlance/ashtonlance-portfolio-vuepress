@@ -1,40 +1,61 @@
 ---
-title: Content management and auto deployment for vuepress
+title: Template Literals
 date: 2018-08-09 17:49:28 +0000
-excerpt: This works like expected, this text is only visible on the front page where
-  all the journal posts are listed
+excerpt: The Template Literal, introduced in ES6, is a new way to create a string.
 
 ---
-# Content management and auto deployment for Vuepress
+# Template Literals
 
-Let's check out how we can automatically deploy our vuepress sites and manage the content from within Forestry.
+Template literals were a part of ES6 that I never found a reason to use until lately. Working for a client that required some Ajax -> html rendering, template literals cleaned up my code and made it so much easier to deal with.
 
-### Preparing our vuepress site
+### How to use template literals
 
-We need to create a `package.json` file in the root of our project, this will include the build command and list vuepress as a dependency.
+To create a template literal, instead of single quotes (`'`) or double quotes (`"`) quotes we use the backtick (```) .
 
-    {
-      "name": "project-name",
-      "scripts": {
-        "site:build": "vuepress build"
-      },
-      "author": "Nichlas W. Andersen",
-      "license": "MIT",
-      "dependencies": {
-        "vuepress": "^0.14.1"
-      }
+Basic example
+
+    let newString = `A string`
+
+There are lots of ways to use template literals but the most revelatory to me was HTML templates.
+
+The javascript function:
+
+    function createMarkup(item) {
+        return `
+            <article class="card">
+                <h3>${item.name}</h3>
+                <p>${item.name} has a base weight of ${data.size}</p>
+            </article>
+        `
     }
 
-Now, push it up to your remote git repository.
+JSON:
 
-### Deploying with Netlify
+    {
+        "id": 1,
+        "name": "Widget",
+        "height": 7,
+        "order": 1,
+        "weight": 14,
+        ...
+    }
 
-1. Create a new site in Netlify and import your repository.
-2. Set the build command to: `npm run site:build`
-3. Set the publish directory to `portfolio/.vuepress/dist`
+Result:
 
-### Manage your content with Forestry
+    <script>
+    const item = {
+        "id": 1,
+        "name": "Widget",
+        "height": 7,
+        "weight": 14,
+        ...
+    }
+    createMarkup(item)
+    </script>
+    
+    <article class="card">
+    	<h3>Widget</h3>
+    	<p>Widget has a base weight of 14</p>
+    </article>
 
-Well, not much to do here really, this theme is pre-configured and works out of the box with Forestry. Create an account at [Forestry](https://forestry.io "Forestry") and import your repository.
-
-That's it, that's all. Enjoy your new site!
+In effect, we have a built-in _Handlebars.js-like_ template rendering engine! So cool.
