@@ -9,7 +9,7 @@ categories:
 - vue
 - twig
 year: 2019
-date: 
+date: 2019-09-10 00:00:00 -0400
 link: https://github.com/ashtonlance/twigkit/
 
 ---
