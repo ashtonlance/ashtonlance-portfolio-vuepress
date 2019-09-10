@@ -6,7 +6,7 @@ categories:
 - Frontend Development
 - Backend Development
 year: 2017
-date: ''
+date: 2019-07-01 00:00:00 -0400
 link: https://chattanosy.com
 show_detail_page: false
 
