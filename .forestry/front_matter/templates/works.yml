@@ -38,6 +38,7 @@ fields:
   name: link
   label: Link
 pages:
+- portfolio/works/twigkit.md
 - portfolio/works/chattanosy.md
 - portfolio/works/mycityrides.md
 - portfolio/works/pixfunder.md
