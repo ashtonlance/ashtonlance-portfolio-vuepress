@@ -5,7 +5,7 @@ description: Designed by Simple Focus. Built with Wordpress.
 categories:
 - Frontend Devlopment
 year: 2018
-date: ''
+date: 2019-07-23 00:00:00 -0400
 link: https://cmom.com
 show_detail_page: false
 
