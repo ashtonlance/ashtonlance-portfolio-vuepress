@@ -38,7 +38,7 @@ fields:
   name: link
   label: Link
 pages:
-- portfolio/works/pixfunder.md
-- portfolio/works/mycityrides.md
 - portfolio/works/chattanosy.md
+- portfolio/works/mycityrides.md
+- portfolio/works/pixfunder.md
 - portfolio/works/children-s-museum-of-memphis.md

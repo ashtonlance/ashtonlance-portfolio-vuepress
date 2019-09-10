@@ -33,9 +33,12 @@ public_path: "/upload"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
+instant_preview: 
 build:
-  preview_command: npm run site:build
-  publish_command: npm run site:build
   preview_output_directory: ".vuepress/dist"
-  output_directory: portfolio/.vuepress/dist
+  preview_docker_image: forestryio/build:latest
+  mount_path: "/opt/buildhome/repo"
   instant_preview_command: vuepress dev -p 8080 -h 0.0.0.0
+  publish_command: npm run site:build
+  output_directory: portfolio/.vuepress/dist
+  preview_command: npm run site:build
