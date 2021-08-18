@@ -1,6 +1,6 @@
 <template>
     <div id="projects" class="project-list">
-        <a
+        <!-- <a
             :href="post.frontmatter.link"
             v-for="post in posts"
             :key="post.title"
@@ -14,7 +14,7 @@
                 <h2>{{ post.frontmatter.title }}</h2>
                 <span v-if="post.frontmatter.description">{{ post.frontmatter.description }}</span>
             </div>
-        </a>
+        </a> -->
         <h3>I work with:</h3>
         <ul>
             <li v-for="item in $page.frontmatter.technologies" v-html="item.technology"></li>

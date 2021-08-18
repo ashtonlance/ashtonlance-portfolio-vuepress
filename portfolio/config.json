@@ -12,12 +12,6 @@
       "external": false
     },
     {
-      "text": "Projects",
-      "link": "/#projects",
-      "position": "left",
-      "external": false
-    },
-    {
       "text": "Github",
       "link": "https://github.com/ashtonlance",
       "position": "right",
